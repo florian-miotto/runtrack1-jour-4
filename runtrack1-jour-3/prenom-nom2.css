@@ -1,0 +1,170 @@
+:root {
+    --blue: #3c8fb8ba;
+    --white: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1,
+span {
+    
+}
+
+body {
+    /* un background responsive */
+    background-image: linear-gradient(135deg, rgb(255, 255, 255), 
+    hsl(0, 0%, 19%)); 
+   margin: 0px;
+}
+
+/* will stick at 20px top  (sticky de 900  à 600 environ)*/
+.stick {
+    position: sticky;
+    top: 0px;
+    background-color: #f1f1f1;
+    /* margin: 0px 5px 5px 5px; */
+   
+    border: 1px solid black;
+   
+    padding: 10px;
+}
+
+header {
+    /* background-color: var(--blue); */
+    padding: 10px;
+    text-align: justify;
+    font-size: 200%;
+    height: 50%;
+    color: white;
+
+}
+.site-header {
+background-color: #232323ba;
+
+    min-height: 10vh;
+    max-height: 30vh;
+    position: relative; 
+}
+
+#mel {
+    font-size: 85%;
+
+}
+
+/* Container  flexbox */
+.container,
+main {
+
+    display: grid ;
+    grid-template-columns:auto auto ;
+    max-width: 90%;
+    grid-gap: 10px;
+    
+}
+/*sans réel interêt mais histoire de... */
+.forma>h2{
+    font-family: 'Syncopate', sans-serif;
+}
+.forma,
+.expe {
+    display: grid ;
+/* background-color: #beccd8ba; */
+    margin: 1%;
+    padding: 20px;
+    /* border-radius: 15px 10px 60px 10px; */
+    border: 1px solid black;
+    width: 100%;
+    grid-template-columns:100%;
+    max-width: 90%;
+}
+.forma>section{
+    display: grid ;
+    /* background-color: #beccd8ba; */
+        margin: 1%;
+        padding: 2%;
+        border-radius: 15px 10px 60px 10px;
+        border: 2px dotted rgb(100, 100, 100);
+        width: 100%;
+        grid-template-columns:auto auto auto;
+        max-width: 80%;
+
+}
+
+aside {
+    
+    /* background: var(--blue); */
+    /* padding: 20px; */
+    color: rgb(81, 81, 81);
+    max-width: 200px;
+    min-width: 100px;
+
+}
+
+
+
+footer {
+    background-color: #232323ba;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+main {
+   
+    padding: 0px;
+    max-width: 100%;
+}
+
+/* Responsive  */
+@media (max-width: 1000px) {
+    main {
+        display: grid ;
+        grid-template-columns:100%;
+    }
+    .expe {
+        display: grid ;
+    
+        margin: 1%;
+        padding: 10px;
+        
+        border: 1px solid black;
+        width: 100%;
+        grid-template-rows:100%;
+        max-width: 90%;
+        
+       
+    }
+    .expe>section{
+        font-size: smaller;
+    }
+  
+    .site-header {
+        font-size: 150%;
+    }
+    .container{
+        grid-template-columns:100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .forma>section{
+        display: grid ;
+        /* background-color: #beccd8ba; */
+            margin: 1%;
+            padding: 2%;
+            border-radius: 15px 10px 60px 10px;
+            border: 2px dotted rgb(100, 100, 100);
+            width: 100%;
+            grid-template-columns:100%;
+            max-width: 90%;
+    
+    }
+
+}

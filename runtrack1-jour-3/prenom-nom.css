@@ -1,0 +1,142 @@
+:root {
+    --blue: #3c8fb8ba;
+    --white: #ffffff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+
+* {
+
+
+    font-family: "Montserrat", sans-serif;
+}
+
+h1,
+span {
+    font-family: 'Syncopate', sans-serif;
+}
+
+body {
+    /* background-color: #d9d9d9; */
+    background-image: linear-gradient(90deg, rgb(237, 237, 237), rgb(236, 236, 236)), linear-gradient(135deg, rgb(163, 125, 62) 0%, rgb(163, 125, 62) 22%, rgb(149, 100, 59) 22%, rgb(149, 100, 59) 32%, rgb(134, 75, 56) 32%, rgb(134, 75, 56) 37%, rgb(120, 50, 53) 37%, rgb(120, 50, 53) 51%, rgb(105, 25, 50) 51%, rgb(105, 25, 50) 55%, rgb(91, 0, 47) 55%, rgb(91, 0, 47) 100%), linear-gradient(112.5deg, rgb(163, 125, 62) 0%, rgb(163, 125, 62) 22%, rgb(149, 100, 59) 22%, rgb(149, 100, 59) 32%, rgb(134, 75, 56) 32%, rgb(134, 75, 56) 37%, rgb(120, 50, 53) 37%, rgb(120, 50, 53) 51%, rgb(105, 25, 50) 51%, rgb(105, 25, 50) 55%, rgb(91, 0, 47) 55%, rgb(91, 0, 47) 100%), linear-gradient(90deg, rgb(163, 125, 62) 0%, rgb(163, 125, 62) 22%, rgb(149, 100, 59) 22%, rgb(149, 100, 59) 32%, rgb(134, 75, 56) 32%, rgb(134, 75, 56) 37%, rgb(120, 50, 53) 37%, rgb(120, 50, 53) 51%, rgb(105, 25, 50) 51%, rgb(105, 25, 50) 55%, rgb(91, 0, 47) 55%, rgb(91, 0, 47) 100%);
+    background-blend-mode: overlay, overlay, overlay, normal;
+    margin: 0px;
+}
+
+/* will stick at 20px top */
+.stick {
+    position: sticky;
+    top: 10px;
+    background-color: var(--blue);;
+    margin: 0px 5px 5px 5px;
+    border-color: #f1f1f1;
+    border: 3px solid var(var(--white));
+    border-radius: 15px 0px 60px 0px;
+    padding: 10px;
+}
+
+/* Style the header */
+header {
+    /* background-color: var(--blue); */
+    padding: 10px;
+    text-align: justify;
+    font-size: 200%;
+    height: 0%;
+    color: white;
+
+}
+
+.shadowlight{
+    
+    background: linear-gradient(145deg, #f0f0f0, #8f8f8f96);
+    box-shadow:  8px 8px 16px #bebebe,
+                 -3px -3px 16px #ffffff;
+}
+
+
+.site-header {
+background-color: #232323ba;
+
+    min-height: 10vh;
+    max-height: 30vh;
+    position: relative; 
+
+    /* border-radius: 0px 0px 60px 0px; */
+
+    box-shadow: 8px 8px 124px #545f65aa,
+        -8px -8px 154px #ffffffb6;
+}
+
+#mel {
+    font-size: 85%;
+
+}
+
+/* Container  flexbox */
+.container,
+main {
+    display: -webkit-flex;
+    display: flex;
+    
+}
+/*sans réel interêt mais histoire de... */
+.forma>h2{
+    font-family: 'Syncopate', sans-serif;
+}
+.forma,
+.expe {
+/* background-color: #beccd8ba; */
+    margin: 2%;
+    padding: 10px;
+    border-radius: 15px 10px 60px 10px;
+}
+
+
+aside {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    /* background: var(--blue); */
+    padding: 20px;
+    color: rgb(81, 81, 81);
+    max-width: 200px;
+    min-width: 100px;
+
+}
+
+
+
+footer {
+    background-color: #232323ba;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    margin-left: 10;
+    padding: 10px;
+    max-width: 70%;
+}
+
+/* Responsive  */
+@media (max-width: 970px) {
+    main {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .site-header {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+}

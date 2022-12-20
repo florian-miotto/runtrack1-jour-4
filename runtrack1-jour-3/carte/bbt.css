@@ -1,0 +1,49 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Teko:wght@300&display=swap');
+
+
+
+ @-webkit-keyframes typing { from { width: 0; } }
+ @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+ 
+ h2 { 
+    
+     border-right: .1em solid black;
+     width: 16.5em; 
+     width: 21ch;
+     margin: 2em 1em;
+     white-space: nowrap;
+     overflow: hidden;
+     -webkit-animation: typing 5s steps(7, end),
+                blink-caret .5s step-end infinite alternate;
+ }
+ .container {
+     width: 60vh;
+
+     font-family: 'Teko', sans-serif;
+font-size: 1.2rem;
+   
+     /* background-color: #beccd8ba; */
+     margin: 0 auto;
+         padding: 2%;
+         border-radius: 80px 10px 60px 10px;
+         border: 2px dotted rgb(100, 100, 100);
+         
+         box-shadow:  8px 8px 16px #bebebe,
+         -3px -3px 16px #ffffff;
+         background-image: url("photo.png");
+         background-size: cover;
+         
+ }
+
+ .texto{
+ font-size: 1em;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ background-color: #ffffff1c;
+ padding: 2%;
+ border-radius: 5px 5px 5px 5px;
+ }
+
+ .lef{
+
+    color: rgba(240, 248, 255, 0.808);
+ }
