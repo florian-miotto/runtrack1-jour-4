@@ -1,0 +1,726 @@
+   @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
+
+   html,
+   body {
+     /* important for the full-width image to work */
+     height: 100%;
+     font-family: 'Barlow Condensed', sans-serif;
+   }
+
+   body {
+     height: 100%;
+     width: 100%;
+     padding: 0;
+     margin: 0;
+
+   }
+h2{
+  margin: 0%;
+}
+   a {
+     color: black;
+     text-decoration: none;
+
+   }
+
+   a:hover {
+     color: burlywood;
+
+   }
+.wrap{
+          margin-top: 90px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+    background-image: url(jiro-by-sushi-stand.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 100vh;
+    background-size: cover;
+}
+.wrap2{
+  background-color: #0000005e;
+  margin-top: 90px;
+height: auto;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100vw;
+
+min-height: 100vh;
+
+}
+   /*  header  visible ----------------------------------*/
+   header {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     background-color: rgb(255, 255, 255);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     z-index: 50;
+     /* width: 100vh; */
+     border-radius:  0em 0em 1em 0em ;
+   }
+
+   .flex-menu {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-evenly;
+     align-items: normal;
+     align-content: normal;
+     max-width: 70%;
+     margin-left: 5%;
+   }
+
+
+   /* Style the navigation links */
+   header a {
+     color: black;
+     text-decoration: none;
+     font-size: 1.5rem;
+     margin: 5%;
+
+   }
+
+   .logo {
+     /* margin-right: 5%; */
+   }
+.wrap { 
+     margin-top: 90px;
+          height: auto;
+     display: flex;
+
+     flex-direction: column;
+     flex-wrap: wrap;
+   justify-content: space-between;
+     width: 100vw;
+     background-image: url(jiro-by-sushi-stand.jpg);
+     background-repeat: no-repeat;
+     background-position: top;
+     min-height: 100vh;
+     background-size: cover;
+}
+   /* Style the main content area */
+   main {
+
+     
+          height: auto;
+     display: flex;
+
+     flex-direction: column;
+     flex-wrap: wrap;
+     width: 100vw;
+    justify-content: space-between;
+   }
+
+   /* main---------------------------------------------------------------- */
+
+
+
+   .contain {
+    background-position: top;
+        max-height: 30%;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    height: 20vw;
+    flex-direction: row;
+  }
+
+   .test {
+     width: 30%;
+     height: 62%;
+     background-color: rgba(255, 255, 255, 0.534);
+     top: 20px;
+     position: relative;
+     /* left: 5%; */
+     z-index: 40;
+     /* display: flex; */
+     /* flex-direction: column; */
+     min-width: 100px;
+     min-height: 180px;
+   }
+   .test2 {
+    /* width: 20%; */
+    height: 32%;
+    background-color: rgba(255, 255, 255, 0.534);
+    top: 40px;
+    position: relative;
+    /* left: 5%; */
+    z-index: 40;
+    /* display: flex; */
+    /* flex-direction: column; */
+    min-width: 100px;
+    min-height: 180px;
+  }
+   .intro {
+     height: 90%;
+     background-color: rgba(255, 255, 255, 0.534);
+     
+     position: relative;
+     padding: 3%;
+   }
+
+   .vid {
+     object-fit: cover;
+     object-position: center;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100vw;
+     min-height: 105vh;
+     z-index: -1;
+
+   }
+
+     .sec1 {
+        top: 15%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: normal;
+     align-content: normal;
+     min-width: 30%;
+
+         /* top: 15%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: normal;
+    position: relative;
+    min-width: 30%;
+   }
+
+   .transclass {
+     /* border: 0.5rem;
+     border-radius: 5px;
+    border-color: #000000;
+    border-style: groove; */
+     min-width: 220px;
+     background-color: rgba(213, 213, 213, 0.808);
+     gap: 10rem;
+         height: 200px;
+     width: 280px;
+     display: flex;
+     flex-direction: row;
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+     margin: 0.1rem;
+     top: -1em;
+    position: relative;
+   }  
+ 
+.inblok { 
+background-color: #000000;
+height: 70%;
+width: 70%;
+display: block;
+flex-grow: 0;
+flex-shrink: 1;
+flex-basis: auto;
+align-self: auto;
+order: 0;
+position: relative;
+background-image: url(jiro-making-sushi.jpg);  color: #eee;
+background-size: cover;
+
+}
+  .in2{
+    position: relative;
+    background-image: url(pattern_flower.png);  color: #eee;
+    background-size: cover;
+
+  }
+  .in3{
+    position: relative;
+    background-image: url(pattern_flower.png);  color: #eee;
+    background-size: cover;
+
+  }
+.H2blok{
+  margin: 0%;
+  height: 20%;
+  display: flex;
+  /* display: block; */
+  flex-grow: 0;
+  position: relative;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  color: rgb(255 255 255);
+  background-color: rgb(0 0 0 / 38%);
+  /* margin: 0.2em; */
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+    
+.H2blok2{
+  margin: 0%;
+  height: 20%;
+  display: block;
+  flex-grow: 0;
+  position: relative;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+    margin: 0.2em;
+} 
+
+  .bigtext {
+    color: rgba(255, 255, 255, 0.881);
+    position: relative;
+    font-size: 3rem;
+    height: auto;
+    width: 50%;
+    min-width: 280px;
+  }
+   .jirotxt {
+    font-size: 115%;
+    background-color: rgba(177, 177, 177, 0.603);
+    padding: 10px;
+    width: 50%;
+    position: relative;
+        height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-content: stretch; */
+    justify-content: space-evenly;
+    align-items: baseline;
+   }
+
+   .slide-left {
+     -webkit-animation: slide-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+     animation: slide-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+   }
+
+   /**
+ * ----------------------------------------
+ * animation slide-left
+ * ----------------------------------------
+ */
+   @-webkit-keyframes slide-left {
+     0% {
+       -webkit-transform: translateY(0);
+       transform: translateY(0);
+     }
+
+     100% {
+       -webkit-transform: translateY(-15px);
+       transform: translateY(-15px);
+     }
+   }
+
+   @keyframes slide-left {
+     0% {
+       -webkit-transform: translateY(0);
+       transform: translateY(0);
+     }
+
+     100% {
+       -webkit-transform: translateY(-15px);
+       transform: translateY(-15px);
+     }
+   }
+
+
+   .formuu {
+     width: 100%;
+     background-color: rgba(51, 51, 51, 0.545);
+     padding: 1em;
+     border-radius: 1em;
+     display: flex;
+     flex-direction: row;
+     font-size: 25%;
+     position: relative;
+     top: 50px;
+   }
+
+   /* --page contact ------------------------*/
+
+   .contBack {
+     width: 100vw;
+     background-image: url(jiro-by-sushi-stand.jpg);
+     background-repeat: no-repeat;
+     background-position: top;
+     min-height: 100vh;
+     background-size: cover;
+
+   }
+
+   /* --page jiro---------------------- */
+   .part2 {
+     width: 100%;
+     height: 250px;
+color: #eee;
+     background-color: rgba(210, 114, 30, 0.822);
+     z-index: 0;
+
+     font-size: 4em;
+
+    
+   }
+.par1{
+ display: flex;
+     flex-direction: column;
+     font-size: 0.7em;
+/* height: 100vmax; */
+
+
+
+}
+
+.cont2 {
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: auto;
+  height: fit-content;
+}
+   /* footer----------------------------------------------- */
+   .foo1 {
+     background-color: #333;
+     width: 100%;
+     height: 20%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+     align-items: flex-start;
+     align-content: flex-start;
+
+   }
+
+   .foo-item {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     width: 30%;
+
+   }
+
+   .foo-item:nth-child(1) {
+     width: 20%;
+   }
+
+   .logo-footer {
+     max-height: 30px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+   }
+
+   .soc {
+     width: 30px;
+     height: 30px;
+
+
+   }
+
+   .linky>ul {
+
+     list-style-type: none;
+     padding: 0.75rem 1rem;
+     color: #eee;
+     text-decoration: none;
+
+   }
+
+   .linky a {
+     padding: 0.75rem 1rem;
+     color: #eee;
+     text-decoration: none;
+
+   }
+
+   .linky a:hover {
+     color: burlywood;
+
+   }
+
+
+
+   .footy {
+     display: flex;
+     justify-content: space-around;
+     color: #333;
+     align-items: baseline;
+     background-color: rgb(116, 116, 116);
+   }
+
+   .footy>a {
+     color: #000000;
+   }
+   .photos {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 47%;
+    height: 30%;
+    
+    background-color: rgb(147, 140, 131);
+    gap: 1em;
+  }
+  .photoItem {
+    width: 9em;
+    height: 9em;
+    background-color: bisque;
+  
+    
+    margin: 0.2em;
+  }
+   /* ---------media queries------------------------ */
+ 
+    @media (max-width: 800px) { 
+
+        .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+          }
+
+  
+  .photos{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: normal;
+    width: 100%;
+    height: 30%;
+   
+
+background-color: rgb(147, 140, 131);
+gap: 1em;
+  }
+  .photoItem {
+    width: 9em;
+    height: 9em;
+    background-color: bisque;
+    
+    margin: 0.2em;
+  }
+  }
+
+   @media (max-width: 1100px) {
+
+    .vid {
+          height: 166vh;
+    }
+    .logo-footer {
+      max-height: 30px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      padding: 0.5rem 0rem 0rem 3rem;
+  }
+
+
+    .formuu {
+      flex-direction: column;
+     
+      top: 50px;
+    }
+   
+  .transclass {
+    height: 200px;
+    width: 280px;
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.bigtext {
+  color: rgba(255, 255, 255, 0.881);
+  position: relative;
+  font-size: 3rem;
+  height: 145px;
+  width: auto;
+  display: flex;
+ 
+  min-width: 90%;
+  padding: 1rem;
+}
+.intro {
+  height: 90%;
+  background-color: rgba(255, 255, 255, 0.534);
+  position: relative;
+  padding: 3%;
+}
+.test {
+  width: 100%;
+   background-color: rgba(255, 255, 255, 0.534);
+  position: relative;
+  z-index: 40;
+}
+.contain {
+  background-position: top;
+ 
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+}
+  } 
+    
+
+
+
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    background-color: rgba(204, 204, 204, 0.473);
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+
+    .jirotxt {
+        font-size: 115%;
+        background-color: rgba(177, 177, 177, 0.603);
+        padding: 10px;
+        width: 100%;
+        position: relative;
+            height: fit-content;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* align-content: stretch; */
+        justify-content: space-evenly;
+        align-items: baseline;
+       }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Left column */
+.leftcolumn {   
+    
+    width: 70%;
+    min-width: 50em;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+ 
+    width: 20%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: rgba(170, 170, 170, 0.103);
+    width: 100%;
+    padding: 0.1em;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    color: #000000;
+    font-size: 1rem;
+  }
+  .row{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .wrap3{
+
+  
+       
+       
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-position: top;
+        min-height: 105vh;
+        background-size: cover;
+
+  }
