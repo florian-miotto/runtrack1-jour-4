@@ -126,14 +126,16 @@ body{
 /* -----------dropmenu------------ */
 
 main{
-display: flex;
-justify-content: flex-start;
-background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  background-color: dodgerblue;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .main-item{
     background-color: azure;
 width: 50%;
-height:100vh;
+/* height:100vh; */
 }
 
 #plat{
@@ -170,12 +172,9 @@ border-radius: 4em 0em 1em 1em;
 
 .inscr{
 background-color: dodgerblue;
-padding: 5%;
-border-radius: 1em;
- box-shadow: 0 0 1em .25em var(--glow-color),
-         0 0 4em 1em var(--glow-spread-color),
-         inset 0 0 .75em .25em var(--glow-color);
-  text-shadow: 0 0 .5em var(--glow-color);
+
+
+
 }
 button {
   --glow-color: rgb(176, 190, 255);
@@ -302,7 +301,71 @@ flex-direction: row;
   .footy>a{
      color: #000000; }
 
-  
+  .bl1{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+
+  }
+  .bl2{
+    background-color: rgb(224, 158, 96);
+    display: flex;
+    color: #eee;
+    padding: 1em;
+  }
+
+     .titrebloc{
+      background-color: whitesmoke;
+      width: 100%;
+      font-size: 2em;
+    }
+    .bloc22{
+      width: 100%;
+      font-size: 2rem;
+      background-color: rgb(224, 158, 96);
+    }
+    .groupe1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+      background-color: whitesmoke;
+   
+    }   
+    .tem{
+      background-color: rgba(245, 245, 245, 0);  
+      }
+    .GR1{
+      margin: 2%;
+      max-width: 350px;
+      margin: 2em;
+      border-radius: 17px;
+background: #ffffff;
+padding: 1em;
+box-shadow:  6px 6px 24px #c9c9c9,
+             -6px -6px 24px #ffffff;
+    
+    }
+    .GR2{
+      margin: 2%;
+      /* max-width: 350px; */
+      margin: 2em;
+     
+
+padding: 1em;
+
+    
+    }
+
+
+
   @media screen and (max-width: 1000px){
     header label{
       display: block;
@@ -323,7 +386,30 @@ flex-direction: row;
       background-color: rgba(51, 51, 51, 0.527);
     }
     
-    
+    .item1 {
+      background-color: dodgerblue;
+      height: 60%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      width: max-content;
+     
+  }
+  /* display: flex;
+  justify-content: flex-start;
+  background-color: dodgerblue;
+  flex-direction: column;
+  flex-wrap: nowrap;
+   align-content: center; 
+  align-items: center; */
+
+  .main-item{
+
+    width: auto;
+    height: auto;
+ 
+  }
     .foo1{
       background-color: #333;
       width: 100%;
@@ -337,4 +423,18 @@ flex-direction: row;
         align-content: flex-start;
       
       } 
+  }
+  @media screen and(max-width: 670px) {
+    .footy {
+      display: flex;
+      justify-content: space-evenly;
+      color: #333;
+      align-items: center;
+      background-color: rgb(116, 116, 116);
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: center;
+  } 
+
+
   }
